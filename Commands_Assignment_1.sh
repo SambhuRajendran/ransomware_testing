@@ -5,6 +5,8 @@ sudo yum update
 sudo yum install git
 sudo git clone https://github.com/mauri870/ransomware.git
 ------------------------------------------------------------
+
+
 #Install Docker - optional
 
 #Doc at https://docs.docker.com/engine/install/centos/
@@ -29,6 +31,8 @@ source /etc/profile
 go version
 
 -----------------------------------------------------
+
+
 #Now go to the folder and build the executable
 
 cd go/src/hello
@@ -40,6 +44,8 @@ go build
 cd ~
 cd ransomware
 -----------------------------------------------------------------------------------------------------------------------
+
+
 sudo dnf install https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.rpm
 sudo dnf upgrade
 sudo yum update
